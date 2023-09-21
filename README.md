@@ -1,14 +1,14 @@
 # F55121050_Reski-Dwi-Ramadhani-Irawan-UAS_PAA_2-
-#Analisis Algorithm untuk mengevaluasi Bubble sort
-Dalam analisis algoritma Bubble Sort terdapat tiga kasus yang berbeda yaitu, kasus terburuk, kasus terbaik, dan kasus rata-rata. Berikut analasis untuk tiap kasus yang ada:
-a. Worst case:
-Kasus terburuk terjadi ketika elemen-elemen dalam array terurut secara terbalik, dan Bubble Sort harus melakukan perbandingan dan pertukaran pada setiap pasangan elemen. Dalam hal ini, kompleksitas waktu Bubble Sort adalah O(n^2), di mana 'n' adalah jumlah elemen dalam array. Bubble Sort akan melakukan perbandingan sebanyak (n-1) + (n-2) + ... + 1 = n(n-1)/2 kali. Untuk setiap perbandingan, diperlukan pertukaran elemen, sehingga total pertukaran dalam kasus terburuk juga adalah n(n-1)/2. 
-b. Best case:
-Kasus terbaik terjadi ketika array sudah terurut dengan benar. Dalam hal ini, Bubble Sort akan melakukan perbandingan pada setiap pasangan elemen, tetapi tidak perlu melakukan pertukaran karena array sudah terurut dengan benar. Kompleksitas waktu Bubble Sort dalam kasus terbaik adalah O(n), karena setiap elemen hanya akan dibandingkan sekali.
-c. Average case:
-Kasus rata-rata dalam Bubble Sort sulit ditentukan secara pasti, karena itu melibatkan distribusi yang acak dari elemen-elemen dalam array. Namun, secara umum, kompleksitas waktu rata-rata Bubble Sort adalah O(n^2). Meskipun ada kemungkinan mengurangi jumlah perbandingan dengan menggunakan teknik seperti "short bubble" (menghentikan iterasi jika tidak ada pertukaran dalam satu putaran), tetapi dalam analisis rata-rata, kami menganggap kasus terburuk di mana semua perbandingan dan pertukaran dilakukan.
-#Analisis Algorithm untuk mengevaluasi Insertion sort
-Dalam analisis algoritma Insertion sort terdapat tiga kasus yang berbeda yaitu, kasus terburuk, kasus terbaik, dan kasus rata-rata. Berikut analasis untuk tiap kasus yang ada:
+<h1>Analisis Algorithm untuk mengevaluasi Bubble sort</h1>
+Dalam analisis algoritma Bubble Sort terdapat tiga kasus yang berbeda yaitu, kasus terburuk, kasus terbaik, dan kasus rata-rata. Berikut analasis untuk tiap kasus yang ada: <br>
+a. Worst case: <br>
+Kasus terburuk terjadi ketika elemen-elemen dalam array terurut secara terbalik, dan Bubble Sort harus melakukan perbandingan dan pertukaran pada setiap pasangan elemen. Dalam hal ini, kompleksitas waktu Bubble Sort adalah O(n^2), di mana 'n' adalah jumlah elemen dalam array. Bubble Sort akan melakukan perbandingan sebanyak (n-1) + (n-2) + ... + 1 = n(n-1)/2 kali. Untuk setiap perbandingan, diperlukan pertukaran elemen, sehingga total pertukaran dalam kasus terburuk juga adalah n(n-1)/2. <br>
+b. Best case: <br>
+Kasus terbaik terjadi ketika array sudah terurut dengan benar. Dalam hal ini, Bubble Sort akan melakukan perbandingan pada setiap pasangan elemen, tetapi tidak perlu melakukan pertukaran karena array sudah terurut dengan benar. Kompleksitas waktu Bubble Sort dalam kasus terbaik adalah O(n), karena setiap elemen hanya akan dibandingkan sekali. <br>
+c. Average case: <br>
+Kasus rata-rata dalam Bubble Sort sulit ditentukan secara pasti, karena itu melibatkan distribusi yang acak dari elemen-elemen dalam array. Namun, secara umum, kompleksitas waktu rata-rata Bubble Sort adalah O(n^2). Meskipun ada kemungkinan mengurangi jumlah perbandingan dengan menggunakan teknik seperti "short bubble" (menghentikan iterasi jika tidak ada pertukaran dalam satu putaran), tetapi dalam analisis rata-rata, kami menganggap kasus terburuk di mana semua perbandingan dan pertukaran dilakukan. <br>
+<h1>Analisis Algorithm untuk mengevaluasi Insertion sort</h1>
+Dalam analisis algoritma Insertion sort terdapat tiga kasus yang berbeda yaitu, kasus terburuk, kasus terbaik, dan kasus rata-rata. Berikut analasis untuk tiap kasus yang ada: <br>
 a.Worst case:
 Worst case pada Bubble Sort terjadi ketika array tersebut sudah terurut secara terbalik atau dalam urutan yang terbalik dari yang diinginkan. Pada setiap iterasi, elemen dengan nilai lebih besar akan terus dipindahkan ke arah akhir array, memerlukan pertukaran pada setiap langkahnya. Dalam hal ini, Bubble Sort akan melakukan iterasi sebanyak (n-1) kali, di mana n merupakan jumlah elemen dalam array. Oleh karena itu, kompleksitas waktu worst case untuk Bubble Sort adalah O(n^2), dengan n adalah jumlah elemen dalam array.
 b. Best case:
